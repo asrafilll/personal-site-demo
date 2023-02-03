@@ -1,145 +1,151 @@
-baseURL                       = "https://example.com/"
-languageCode                  = "id"
-title                         = "Wisnuwiry"
-theme                         = "personal-site"
-summaryLength                 = 10
+baseURL                         = "https://asrafilll.com"
+languageCode                    = "id"
+summaryLength                   = 10
+theme                           = "personal-site"
+title                           = "Asrafilll"
 
 [Author]
-avatar = "img/avatar.webp"
-bio = "We love technology, as technology has the power to solve our many problems within just a minute."
-donate = true
-email = "jhondoe@gmail.com"
-gender = "male"
-job = "Software Engineer"
-name = "John Doe"
+avatar                          = "img/avatar.webp"
+bio                             = "FullTime Freelance Mobile Developer | Building NinjaKoding"
+donate                          = true
+email                           = "asrafilr@gmail.com"
+gender                          = "male"
+job                             = "Software Engineer"
+name                            = "Asrafil Rizal"
 
 [Params]
-GoogleAnalytics = ""
-authorbox = true
-comments = true
-copyright = "jhondoe"
-customJS = []
-customSearchId = ""
-dateFormat = "January 02, 2006"
-description = "Sebuah catatan dan blog pribadi saya. Saya juga akan membagi tentang pengalaman saya dan teknologi-teknolgi yang saya gunakan/pelajari atau yang sedang populer."
-editContentPageLink = "https://github.com/jhondoe/blog-v2/edit/master/content/"
-endMessagePost = "Terdapat kesalahan penulisan, typo, ataupun juga kurang sesuai dalam penulisan, bantu Saya"
-fb_admins = ""
-fb_app_id = ""
-fontUnit = "em"
-formspreeId = ""
-googleSearchConsole = ""
-hideNoPostsWarning = false
-images = ["img/avatar.webp"]
-largestFontSize = 2.5
-mainMenuAlignment = "right"
-mainSections = ["post", "snippet"]
-mathjax = false
-opengraph = true
-paginateLength = 5
-related = true
-relatedMax = 5
-smallestFontSize = 1
-subTitle = "Personal site, Blog, and Portfolio"
-twitter_cards = true
+GoogleAnalytics                 = "UA-216155142-1"
+authorbox                       = true
+comments                        = true
+copyright                       = "Asrafilll"
+customJS                        = []
+customSearchId                  = "004021659876411083349:a2ysxpichpc"
+dateFormat                      = "January 02, 2006"
+description                     = "Sebuah catatan dan blog pribadi saya. Saya juga akan membagi tentang pengalaman saya dan teknologi-teknolgi yang saya gunakan/pelajari atau yang sedang populer."
+editContentPageLink             = "https://github.com/asrafilll/blog-v2/edit/master/content/"
+endMessagePost                  = "Jika terdapat kesalahan penulisan, typo, atau kurang sesuai dalam penulisan, bantu Saya untuk"
+fb_admins                       = 100023577212451
+fb_app_id                       = 192065405413624
+fontUnit                        = "em"
+formspreeId                     = "xjvperzz"
+googleSearchConsole             = "DPzG0dF0bj2j3vTCIxUjOWLgW7skB2mX7J0DrX0_6bM"
+hideNoPostsWarning              = false
+images                          = ["img/avatar.webp"]
+largestFontSize                 = 2.5
+mainMenuAlignment               = "right"
+mainSections                    = ["post", "snippet", "series"]
+opengraph                       = true
+paginateLength                  = 5
+related                         = true
+relatedMax                      = 5
+smallestFontSize                = 1
+subTitle                        = "Personal Site"
+twitter_cards                   = true
+adsenseId                       = ""
 
 [Params.Breadcrumb]
-enable = true
-homeText = "Home"
+enable                          = true
+homeText                        = "Home"
 
 [Params.Comments]
-repository = "jhondoe/blog-v2"
+repository                      = "Asrafilll/blog-v2"
 
 [Params.Entry]
-meta = ["date"]
-toc = true
+meta                            = ["date", "categories"]
+toc                             = true
+tocOpen                         = false
 
 [Params.Hero]
-title = "Hello, I'm John Doe"
-desc = "Seorang ~Software Engineer~ yang suka dengan berbagi."
+title                           = "Hello, I'm Wisnu G. Saputra"
+desc                            = "Seorang ~Software Engineer~ yang suka dengan berbagi."
 
 [Params.Manifest]
-backgroundColor = "#8dc153"
-description = "Personal Site By Jhondoe"
-display = "standalone"
-name = "Jhondoe Blog"
-orientation = "portrait"
-scope = "/"
-shortName = "Jhondoe"
-startUrl = "/?utm_source=homescreen"
-themeColor = "#1da1f2"
+backgroundColor                 = "#8dc153"
+description                     = "Personal Site By Asrafilll"
+display                         = "standalone"
+name                            = "Asrafilll Blog"
+orientation                     = "portrait"
+scope                           = "/"
+shortName                       = "Asrafilll"
+startUrl                        = "/?utm_source=homescreen"
+themeColor                      = "#1da1f2"
 
 [Params.Share]
-facebook = true
-linkedin = true
-pinterest = true
-reddit = true
-telegram = true
-twitter = true
+facebook                        = false
+linkedin                        = true
+pinterest                       = false
+reddit                          = false
+telegram                        = true
+twitter                         = true
 
 [Params.Social]
-github = "jhondoe"
-gitlab = "jhondoe"
-linkedin = "wisnu-saputra"
-medium = "jhondoe"
-telegram = "jhondoe"
-twitter = "jhondoe"
+github                          = "asrafilll"
+gitlab                          = "asrafil.dev"
+linkedin                        = "asrafilr"
+medium                          = "asrafilr"
+telegram                        = "asrafill"
+twitter                         = "stillkiddie"
+
 [markup.highlight]
-codeFences = true
-guessSyntax = false
-hl_Lines = ""
-lineNoStart = 1
-lineNos = true
-lineNumbersInTable = true
-noClasses = false
-style = "dracula"
-tabWidth = 4
+codeFences                      = true
+guessSyntax                     = false
+hl_Lines                        = ""
+lineNoStart                     = 1
+lineNos                         = true
+lineNumbersInTable              = true
+noClasses                       = false
+style                           = "dracula"
+tabWidth                        = 4
 
 [markup.tableOfContents]
-endLevel = 3
-ordered = false
-startLevel = 2
+endLevel                        = 3
+ordered                         = false
+startLevel                      = 2
 
 [[menu.main]]
-identifier = "Contact"
-pre = "🤙"
-url = "/contact"
-weight = 6
+identifier                      = "Series"
+pre                             = "📚"
+url                             = "/series"
+weight                          = 1
+
 [[menu.main]]
-identifier = "About"
-pre = "😃"
-url = "/about"
-weight = 5
+identifier                      = "Post"
+pre                             = "📝"
+url                             = "/post"
+weight                          = 2
+
 [[menu.main]]
-identifier = "Snippet"
-pre = "⚒️"
-url = "/snippet"
-weight = 3
+identifier                      = "Snippet"
+pre                             = "⚒️"
+url                             = "/snippet"
+weight                          = 3
+
 [[menu.main]]
-identifier = "Post"
-pre = "📝"
-url = "/post"
-weight = 2
+identifier                      = "About"
+pre                             = "😃"
+url                             = "/about"
+weight                          = 5
+
 [[menu.main]]
-identifier = "Series"
-pre = "🗂️"
-url = "/series"
-weight = 1
+identifier                      = "Contact"
+pre                             = "🤙"
+url                             = "/contact"
+weight                          = 6
 
 [outputFormats.MANIFEST]
-baseName = "manifest"
-isPlainText = true
-mediaType = "application/json"
-notAlternative = true
+baseName                        = "manifest"
+isPlainText                     = true
+mediaType                       = "application/json"
+notAlternative                  = true
 
 [outputs]
-Paginate = 5
-enableRobotsTXT = true
-home = ["HTML", "RSS", "MANIFEST"]
+Paginate                        = 5
+enableRobotsTXT                 = true
+home                            = ["HTML", "RSS", "MANIFEST"]
 
 [sitemap]
-changeFreqPage = "monthly"
-changefreq = "daily"
-filename = "sitemap.xml"
-priority = 1
-priorityPage = 0.5
+changeFreqPage                  = "monthly"
+changefreq                      = "daily"
+filename                        = "sitemap.xml"
+priority                        = 1
+priorityPage                    = 0.5
