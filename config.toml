@@ -1,7 +1,7 @@
 baseURL                         = "https://asrafilll.com"
 languageCode                    = "id"
 summaryLength                   = 10
-theme                           = "personal-site"
+theme                           = "ananke"
 title                           = "Asrafilll"
 
 [Author]
